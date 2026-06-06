@@ -10,6 +10,18 @@ function Contact() {
     <div>
       <h1>Contact Me</h1>
 
+      <div className="contact-info">
+        <h2>Contact Information</h2>
+
+        <p>Email: spant6@my.centennialcollege.ca</p>
+
+        <p>Location: Toronto, Ontario</p>
+
+        <p>GitHub: github.com/SatjalPant</p>
+      </div>
+
+      <br />
+
       <form onSubmit={handleSubmit}>
 
         <input

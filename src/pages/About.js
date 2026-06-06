@@ -7,7 +7,7 @@ function About() {
         My name is Satjal Pant. I study software engineering and web development.
       </p>
 
-      <a href="/resume.pdf" download>
+      <a href="/Resume.docx" download>
         Download Resume
       </a>
     </div>

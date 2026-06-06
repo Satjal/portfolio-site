@@ -12,22 +12,25 @@ function Projects() {
           </p>
         </div>
 
-        <div className="project-card">
-          <h2>E-Commerce Website</h2>
-          <p>
-            An online shopping platform with product listings and cart functionality.
-          </p>
-        </div>
+       
 
-        <div className="project-card">
-          <h2>Restaurant Website</h2>
-          <p>
-            A modern restaurant website with menu and reservation sections.
-          </p>
-        </div>
+  <h2>Centennial Student Website</h2>
+
+  <p>
+    A web development project  hosted on Centennial College student webspace.
+  </p>
+
+  <a
+    href="http://studentweb.cencol.ca/spant6"
+    target="_blank"
+    rel="noreferrer"
+  >
+    View Project
+  </a>
+</div>
 
       </div>
-    </div>
+   
   );
 }
 
