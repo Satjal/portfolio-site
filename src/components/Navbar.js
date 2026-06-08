@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-      <h2>SP Portfolio</h2>
+      <div className="logo">
+  SP
+      </div>
 
       <ul>
         <li><Link to="/">Home</Link></li>

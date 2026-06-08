@@ -1,15 +1,37 @@
+import profileImage from "../assets/profile.jpg";
+
 function About() {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className="about-container">
 
-      <p>
-        My name is Satjal Pant. I study software engineering and web development.
-      </p>
+      <img
+        src={profileImage}
+        alt="Satjal Pant"
+        className="profile-image"
+      />
 
-      <a href="/Resume.docx" download>
-        Download Resume
-      </a>
+      <div>
+
+        <h1>About Me</h1>
+
+        <p>
+          My name is Satjal Pant. I am a Software Engineering
+          student at Centennial College in Scarborough, Canada.
+        </p>
+
+        <p>
+          I am passionate about web development, programming,
+          and creating modern responsive applications.
+        </p>
+
+        <a href="/resume.docx" download>
+          <button>
+            Download Resume
+          </button>
+        </a>
+
+      </div>
+
     </div>
   );
 }
