@@ -1,39 +1,4 @@
 import profileImage from "../assets/profile.jpg";
-
-function About() {
-  return (
-    <div className="about-container">
-
-      <img
-        src={profileImage}
-        alt="Satjal Pant"
-        className="profile-image"
-      />
-
-      <div>
-
-        <h1>About Me</h1>
-
-        <p>
-          My name is Satjal Pant. I am a Software Engineering
-          student at Centennial College in Scarborough, Canada.
-        </p>
-
-        <p>
-          I am passionate about web development, programming,
-          and creating modern responsive applications.
-        </p>
-
-        <a href="/resume.docx" download>
-          <button>
-            Download Resume
-          </button>
-        </a>
-
-      </div>
-
-    </div>
-  );
+export default function About() {
+  return <section className="about-container"><img src={profileImage} alt="Satjal Pant" className="profile-image" /><div><p className="eyebrow">A BIT ABOUT ME</p><h1>Curious by nature.<br /><span>Developer by choice.</span></h1><p>I'm Satjal Pant, a Software Engineering student at Centennial College in Scarborough, Canada.</p><p>I enjoy turning ideas into clear, approachable web experiences. My interests span responsive web development, frontend design, and databases, and I'm continuously growing through hands-on projects.</p><div className="tags"><span>Web development</span><span>Interface design</span><span>Continuous learning</span></div><a className="button" href="/Resume.docx" download>Download resume ↓</a></div></section>;
 }
-
-export default About;

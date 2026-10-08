@@ -1,7 +1,9 @@
 function Education() {
   return (
     <div>
-      <h1>Education</h1>
+      <p className="eyebrow">ALWAYS LEARNING</p>
+      <h1>My education<span>.</span></h1>
+      <div className="education-list">
 
       <div className="project-card">
 
@@ -22,7 +24,7 @@ function Education() {
 
       </div>
 
-      <br />
+
 
       <div className="project-card">
 
@@ -40,6 +42,7 @@ function Education() {
           Completed higher secondary education with a science background.
         </p>
 
+      </div>
       </div>
     </div>
   );

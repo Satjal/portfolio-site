@@ -5,7 +5,8 @@ import studentwebImage from "../assets/studentweb.png";
 function Projects() {
   return (
     <div>
-      <h1>My Projects</h1>
+      <p className="eyebrow">IDEAS BROUGHT TO LIFE</p>
+      <h1>My projects<span>.</span></h1>
 
       <div className="projects-container">
 
@@ -14,7 +15,7 @@ function Projects() {
           <img
             src={portfolioImage}
             alt="Portfolio Website"
-            className="service-image"
+            className="service-image" loading="lazy"
           />
 
           <h2>React Portfolio Website</h2>
@@ -39,7 +40,7 @@ function Projects() {
           <img
             src={restaurantImage}
             alt="Restaurant Website"
-            className="service-image"
+            className="service-image" loading="lazy"
           />
 
           <h2>Restaurant Website</h2>
@@ -63,7 +64,7 @@ function Projects() {
           <img
             src={studentwebImage}
             alt="Student Website"
-            className="service-image"
+            className="service-image" loading="lazy"
           />
 
           <h2>Centennial Student Website</h2>

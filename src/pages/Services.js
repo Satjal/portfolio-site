@@ -5,12 +5,13 @@ import databaseImage from "../assets/database.png";
 function Services() {
   return (
     <div>
-      <h1>Services</h1>
+      <p className="eyebrow">HOW I CAN HELP</p>
+      <h1>What I do<span>.</span></h1>
 
       <div className="projects-container">
 
         <div className="project-card">
-          <img src={webImage} alt="Web Development" className="service-image" />
+          <img src={webImage} alt="Web Development" className="service-image" loading="lazy" />
 
           <h2>Web Development</h2>
 
@@ -20,7 +21,7 @@ function Services() {
         </div>
 
         <div className="project-card">
-          <img src={designImage} alt="Frontend Design" className="service-image" />
+          <img src={designImage} alt="Frontend Design" className="service-image" loading="lazy" />
 
           <h2>Frontend Design</h2>
 
@@ -30,7 +31,7 @@ function Services() {
         </div>
 
         <div className="project-card">
-          <img src={databaseImage} alt="Database Design" className="service-image" />
+          <img src={databaseImage} alt="Database Design" className="service-image" loading="lazy" />
 
           <h2>Database Design</h2>
 
