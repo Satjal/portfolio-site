@@ -10,9 +10,11 @@ import Education from "./pages/Education";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import PageMetadata from "./components/PageMetadata";
 function App() {
   return (
     <BrowserRouter>
+      <PageMetadata />
       <a className="skip-link" href="#main-content">Skip to content</a>
       <Navbar />
       <main id="main-content" tabIndex={-1}>
